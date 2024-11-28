@@ -19,10 +19,6 @@ const HomeScreen = () => {
 
   return (
     <>
-      <Link to="/" className="btn bg-black text-white">
-        Go Back
-      </Link>
-
       {isLoading ? (
         <Loader />
       ) : error ? (
